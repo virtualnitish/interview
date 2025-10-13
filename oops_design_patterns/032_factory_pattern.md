@@ -224,6 +224,9 @@ The `agent` element has been replaced with a `class` to properly represent the c
 
 ![tight_coupling](images/032_factory_pattern-image.png)
 
+[Tight Coupling | PlantUML](www.plantuml.com/plantuml/png/VP1FImD13CNlyob2JufGFFSW5L7mugKVO8cpsMxe_2b9bgAbtzsewoBhucs6_DxBozkgeTYGKz03boCAPeW9LU_DX5y7e-TOouxV2Mv3u68a7KQ2bshSCGcS0y2DKcclCgdYdgx39OGl2tZCo6aYEHyJPIgcathaTbd_fKRiv_-4qQgyVQy-gw5nlC2Uh2aZuLcih-slAAlFY4sLbgJnWpgMxB9QLe0A3ucfcFivFhxNwxi_-pOmAEaIuQDJbOF2YQq7wmccfiBSnNMpOZOGXT185ralPu4CMxzdoEa3)
+
+
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
@@ -254,6 +257,8 @@ Client .. N1
 As we discussed, this version replaces the `agent` with a `class` named `Client` that represents the code calling the factory.
 
 ![simple_factory](images/032_factory_pattern-image-1.png)
+
+[Simple Factory | PlantUML](//www.plantuml.com/plantuml/png/fPBFIWCn48VlUOhGYnLfyUn1AkB1WrBi0yWqdRQ3IRPa9YWkVNUpVyOkiXIXjqpopPVCZonO84aEtl07nGCa2DPvO7uGIRJEWi-kYYlwHdjhp9MTpMPscQfDTi9DOIWAfYqujA-Lq9OmsTfOUyCODzE0pB33QtCqhTG-1I3_2r8uU0mOYqhtUcuL-1_KClF-7AOFVam8KgNkmR1cIU2a7LDP1q9LV848k-40xt5mUfgcdDQgELhNsB57CKt_JAjI_99YF7FXg4VJkD2YQLsaqJGzOPHcsObrepuXR-XR9U_fqAMkJVUZLzxPzXj1ywa-IVPc39hFjRdjc6H6dXZDM94kz27NZLBGFaO5IpcAQKxADVKeQ1Obmnpy3m00)
 
 ```plantuml
 @startuml
@@ -288,6 +293,9 @@ NotifierFactory ..> SmsNotifier : creates
 Here, the `actor` element has been replaced with a `class` called `Client`, which is the standard way to show the entity that interacts with the Creator classes.
 
 ![final_factory](images/032_factory_pattern-image-2.png)
+
+[Final Factory | PlantUML](https://www.plantuml.com/plantuml/uml/fPBFIWCn48VlUOhGYnLfyUn1AkB1WrBi0yWqdRQ3IRPa9YWkVNUpVyOkiXIXjqpopPVCZonO84aEtl07nGCa2DPvO7uGIRJEWi-kYYlwHdjhp9MTpMPscQfDTi9DOIWAfYqujA-Lq9OmsTfOUyCODzE0pB33QtCqhTG-1I3_2r8uU0mOYqhtUcuL-1_KClF-7AOFVam8KgNkmR1cIU2a7LDP1q9LV848k-40xt5mUfgcdDQgELhNsB57CKt_JAjI_99YF7FXg4VJkD2YQLsaqJGzOPHcsObrepuXR-XR9U_fqAMkJVUZLzxPzXj1ywa-IVPc39hFjRdjc6H6dXZDM94kz27NZLBGFaO5IpcAQKxADVKeQ1Obmnpy3m00)
+
 
 ```plantuml
 @startuml
