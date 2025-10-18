@@ -1,3 +1,5 @@
+# Factory Method Pattern Explained: From Tight Coupling to Flexible Design
+
 Of course. Let's break down the Factory Method from the ground up. It's a classic pattern, but textbook examples often jump into the final, abstract solution without showing you the problem it's trying to solve. Forget that complex code for a moment.
 
 We'll build up to it step-by-step, starting with the problem itself.
